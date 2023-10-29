@@ -12,6 +12,8 @@
 		494507582AEF043900DC8004 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494507572AEF043900DC8004 /* Item.swift */; };
 		4945075A2AEF043B00DC8004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 494507592AEF043B00DC8004 /* Assets.xcassets */; };
 		4945075D2AEF043B00DC8004 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4945075C2AEF043B00DC8004 /* Preview Assets.xcassets */; };
+		494507692AEF076300DC8004 /* Annotator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494507682AEF076300DC8004 /* Annotator.swift */; };
+		4945076B2AEF09BA00DC8004 /* Editor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4945076A2AEF09BA00DC8004 /* Editor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		4945075C2AEF043B00DC8004 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4945075E2AEF043B00DC8004 /* CloudSwift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CloudSwift.entitlements; sourceTree = "<group>"; };
 		4945075F2AEF043B00DC8004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		494507682AEF076300DC8004 /* Annotator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Annotator.swift; sourceTree = "<group>"; };
+		4945076A2AEF09BA00DC8004 /* Editor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Editor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,9 @@
 		494507522AEF043900DC8004 /* CloudSwift */ = {
 			isa = PBXGroup;
 			children = (
+				494507672AEF047200DC8004 /* Components */,
+				494507662AEF046000DC8004 /* ContentViews */,
+				494507652AEF045000DC8004 /* ModelStorage */,
 				494507532AEF043900DC8004 /* CloudSwiftApp.swift */,
 				494507552AEF043900DC8004 /* ContentView.swift */,
 				494507572AEF043900DC8004 /* Item.swift */,
@@ -72,6 +79,29 @@
 				4945075C2AEF043B00DC8004 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		494507652AEF045000DC8004 /* ModelStorage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ModelStorage;
+			sourceTree = "<group>";
+		};
+		494507662AEF046000DC8004 /* ContentViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ContentViews;
+			sourceTree = "<group>";
+		};
+		494507672AEF047200DC8004 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				494507682AEF076300DC8004 /* Annotator.swift */,
+				4945076A2AEF09BA00DC8004 /* Editor.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,9 +174,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				494507692AEF076300DC8004 /* Annotator.swift in Sources */,
 				494507562AEF043900DC8004 /* ContentView.swift in Sources */,
 				494507582AEF043900DC8004 /* Item.swift in Sources */,
 				494507542AEF043900DC8004 /* CloudSwiftApp.swift in Sources */,
+				4945076B2AEF09BA00DC8004 /* Editor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

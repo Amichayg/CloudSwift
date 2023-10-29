@@ -16,3 +16,16 @@ final class Item {
         self.timestamp = timestamp
     }
 }
+
+
+@Model
+final class Element{
+    var id: PersistentIdentifier
+    var name: String
+    var content: String
+    init(id: PersistentIdentifier, name: String, content: String) {
+        self.id = id
+        self.name = name
+        self.content = content
+    }
+}
